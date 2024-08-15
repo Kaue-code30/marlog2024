@@ -47,7 +47,7 @@ const dataServices = [
                 transition={{ duration: 1 }}
                 whileInView={{ y: 0, opacity: 1 }} className="w-full h-1/4 gap-3 pb-5 lg:pb-0 flex flex-col items-center justify-center">
                 <h1 className="text-2xl text-center  lg:text-5xl  font-bold">
-                    Conheça nossos serviços.
+                    Conheça nossos serviços.cc
                 </h1>
                 <p className="text-center">
                     Descubra como podemos facilitar seu transporte com nossos serviços.

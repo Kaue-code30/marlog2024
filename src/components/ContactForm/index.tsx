@@ -44,7 +44,7 @@ export default function ContactForm() {
     };
 
     return (
-        <section id="formulario" style={{ background: "linear-gradient(10deg, #2462DB 0%, #133475 100%)" }} className="flex text-white flex-col gap-10 lg:flex-row bg-cover lg:gap-20 bg-no-repeat bg-center items-center justify-center lg:py-20 py-20 px-8 lg:px-24 w-full h-full">
+        <section id="formulario" style={{ background: "linear-gradient(180deg, #2462DB 0%, #133475 100%)" }} className="flex text-white flex-col gap-10 lg:flex-row bg-cover lg:gap-20 bg-no-repeat bg-center items-center justify-center lg:py-20 py-20 px-8 lg:px-24 w-full h-full">
             <div className="flex-col items-start justify-start w-full lg:w-1/2 gap-5 h-full flex">
                 <h1 className=" font-bold lg:-mt-56 text-2xl lg:text-5xl">
                     Fale diretamente com o nosso time.

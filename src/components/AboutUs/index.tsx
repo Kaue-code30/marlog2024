@@ -8,7 +8,7 @@ import Link from "next/link"
 
 export default function AboutUs() {
     return (
-        <section id="quem-somos" style={{ background: "linear-gradient(10deg, #2462DB 0%, #133475 100%)" }} className="flex lg:flex-row flex-col-reverse bg-contain gap-10 lg:gap-20 bg-no-repeat  bg-right items-center justify-center lg:py-0 py-20 px-8 lg:px-24 w-full h-full">
+        <section id="quem-somos" style={{ background: "linear-gradient(180deg, #2462DB 0%, #133475 100%)" }} className="flex lg:flex-row flex-col-reverse bg-contain gap-10 lg:gap-20 bg-no-repeat  bg-right items-center justify-center lg:py-0 py-20 px-8 lg:px-24 w-full h-full">
             <motion.div  className="flex flex-col items-start gap-3 justify-center w-full lg:w-1/2">
                 <h1 className="text-2xl text-white pb-2 lg:text-5xl font-bold">
                     Quem somos?
