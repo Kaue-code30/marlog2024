@@ -30,7 +30,7 @@ export default function NewHome() {
                             Conectando destinos com eficiência e segurança.
                         </h1>
                         <p className="text-base lg:text-base text-white w-full lg:w-4/5">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, w
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, w
                         </p>
                         <button className="w-[200px] hover:scale-95 transition h-10 bg-transparent rounded-lg border text-white text-sm border-white">
                             saiba mais
