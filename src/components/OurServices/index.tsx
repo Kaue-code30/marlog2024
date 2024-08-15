@@ -42,14 +42,14 @@ const dataServices = [
 
 
     return (
-        <section className="flex flex-col bg-cover gap-10 lg:gap-20 bg-no-repeat lg:pt-0 pt-20 lg:pb-0 pb-20 bg-center items-center justify-center px-8 lg:px-24 w-full h-full bg-white">
+        <section id="nossos-servicos" className="flex flex-col bg-cover gap-10 lg:gap-20 bg-no-repeat  lg:pt-3  pt-20 lg:pb-16 pb-20 bg-center items-center justify-center px-8 lg:px-24 w-full h-full bg-white">
             <motion.div initial={{ opacity: 0 }}
                 transition={{ duration: 1 }}
-                whileInView={{ y: 0, opacity: 1 }} className="w-full h-1/4 gap-3 flex flex-col items-center justify-center">
-                <h1 className="text-2xl lg:text-5xl uppercase font-bold">
-                    conheça nossos serviços
+                whileInView={{ y: 0, opacity: 1 }} className="w-full h-1/4 gap-3 pb-5 lg:pb-0 flex flex-col items-center justify-center">
+                <h1 className="text-2xl text-center  lg:text-5xl  font-bold">
+                    Conheça nossos serviços.
                 </h1>
-                <p>
+                <p className="text-center">
                     Descubra como podemos facilitar seu transporte com nossos serviços.
                 </p>
 
@@ -68,7 +68,7 @@ const dataServices = [
                                     <h2 className="uppercase font-semibold">
                                         {data.title}
                                     </h2>
-                                    <div style={{ background: "linear-gradient(160deg, #2462DB 0%, #133475 100%)" }} className="rounded w-20 h-1"></div>
+                                    <div style={{ background: "linear-gradient(10deg, #2462DB 0%, #133475 100%)" }} className="rounded w-20 h-1"></div>
                                     <p>
                                         {data.text}
                                     </p>

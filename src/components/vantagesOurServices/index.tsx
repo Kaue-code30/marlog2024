@@ -34,9 +34,9 @@ export default function VantagesOurServices() {
     ]
 
     return (
-        <section className="flex flex-col bg-cover lg:gap-20 bg-no-repeat bg-center items-center justify-center lg:py-0 py-20 px-8 lg:px-24 w-full h-full bg-white">
+        <section id="vantagens" className="flex flex-col bg-cover lg:gap-20 bg-no-repeat bg-center items-center justify-center lg:py-0 py-20 px-8 lg:px-24 w-full h-full bg-white">
             <div className="flex justify-center lg:pb-10 items-center flex-col gap-4 w-full h-1/4">
-                <h1 className="text-2xl font-bold text-center lg:text-5xl">VANTAGENS DE ULTILIZAR NOSSOS SERVIÇOS</h1>
+                <h1 className="text-2xl font-bold text-center lg:text-5xl">Vantagens de ultilizar nossos serviços.</h1>
                 <p className="text-sm w-full lg:w-[73%] text-center">Os clientes depositam sua confiança em nossa empresa não apenas pela eficiência, mas também pelo cuidado com que cada envio é tratado, como se fosse de nossa própria responsabilidade. Seja para atender a uma entrega urgente ou gerenciar um projeto logístico complexo, estamos comprometidos em superar as expectativas e simplificar os desafios logísticos enfrentados por eles.</p>
             </div>
             <motion.div initial={{ opacity: 0, }}
